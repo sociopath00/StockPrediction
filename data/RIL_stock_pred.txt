@@ -1,0 +1,27 @@
+RIL stock price prediction:
+
+The dataset describes daily stock price trend for RELIANCE INDUSTRIES LTD for the period of 3 years.
+
+Tasks:
+1. Download the dataset from https://drive.google.com/file/d/1hR_ha8pEQneVWmzr_26fbERazq8tdwf8/view?usp=sharing
+2. Perfom explorative analysis using python
+3. Train ML model usig dataset
+4. Predict stock price for next 3 days
+
+Expectations:
+1. We expect you to write clean and readable code.
+2. Conventions and Best practices should be followed.
+
+Goal:
+The goal of this exercise is to get clear idea about:
+1. How good are you in python.
+2. How much understanding of data science and ML models do you have.
+3. How do you analyze the problem and dataset.
+4. How do you approach solution with best outcome.
+
+How to Submit this assignment ?
+1. Create a repository in gitlab/github and share the URL with us.
+2. Write a README that includes:
+    a. How to setup, train and predict.
+    b. Accuracy comparison of different models that you have tested
+    c. Explain on what basis you have selected the best model.
