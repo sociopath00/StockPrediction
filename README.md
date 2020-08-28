@@ -39,6 +39,17 @@
 
      `$ python -m src.predict -p stacked_lstm`
      
+## Directory Structure
+**data**:  directory contains training and testing data
+
+**src**:   directory contains code files
+
+**models**: directory contains model files
+
+**output**: directory contains images
+ 
+
+     
      
 ## Solution
 
@@ -81,3 +92,14 @@
 
 
 ![Performance](./output/performance.png)
+
+
+- Out of all 4 models we used, simple GRU has lowest RMSE score followed by stacked GRU.
+- For our final predictions, we will use both models on Test Data.
+- Our Test data will include last 75 days data which we'll use as features
+
+### Output
+
+![Output](./output/output.png)
+
+
