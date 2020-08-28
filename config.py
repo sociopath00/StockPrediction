@@ -3,11 +3,12 @@ DATA_COLUMNS = ["dates", "open", "high", "low", "close", "wap", "no_shares",
 
 DATA = "data/RIL_equity_3_years.csv"
 
-TARGET = "high"
+TARGET = "close"
 
 NO_OF_FEATURES = 75
 
-MODEL_PATH = "models/lstm_model.h5"
+# MODEL_PATH = "models/lstm_model.h5"
+MODEL = "stacked_gru"
 
 # model hyper-parameters
 EPOCHS = 200
