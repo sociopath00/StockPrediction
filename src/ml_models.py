@@ -5,7 +5,7 @@ from config import *
 
 class StackLSTM:
     @staticmethod
-    def build(input_shape=(NO_OF_FEATURES, 1), n=1, dropout=False):
+    def build(input_shape=(NO_OF_FEATURES, 1), n=3, dropout=True):
         model = Sequential()
         model.add(LSTM(50, return_sequences=True, input_shape=input_shape))
 
@@ -47,7 +47,7 @@ class SimpleGRU:
 
 class StackGRU:
     @staticmethod
-    def build(input_shape=(NO_OF_FEATURES, 1), n=1, dropout=False):
+    def build(input_shape=(NO_OF_FEATURES, 1), n=3, dropout=True):
         # gru = GRU(10)
 
         model = Sequential()

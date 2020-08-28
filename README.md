@@ -30,12 +30,12 @@
     
     *Note*: If you wish to train with different dataset mention the path with `-d` argument, target variable with `-t` and model path with `-p`
     
-    eg.  `$ python -m src.train -d data/train.csv -p models/model.h5 -t close`
+    eg.  `$ python -m src.train -d data/train.csv -p stacked_lstm -t close`
     
 
 - Predict the values on Test data
 
-     `$ python -m src.predict`
+     `$ python -m src.predict -p stacked_lstm`
      
      
     
