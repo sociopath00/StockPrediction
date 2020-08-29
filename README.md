@@ -47,7 +47,8 @@
 **models**: directory contains model files
 
 **output**: directory contains images
- 
+
+**config.py**: file contains Configuration parameters
 
      
      
